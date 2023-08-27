@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Beautiful Sunset",
+    "price": "290$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 2,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Majestic Mountains",
+    "price": "300$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 3,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Serene Beach",
+    "price": "250$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 4,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Enchanting Forest",
+    "price": "150$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 5,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Urban Skylines",
+    "price": "450$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 6,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Historic Architecture",
+    "price": "299$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 7,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Vibrant City Life",
+    "price": "370$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 8,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Tranquil Waters",
+    "price": "120$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 9,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg",
+    "title": "Rural Landscapes",
+    "price": "450$",
+    "description": "Fitted long Strappy Shoes"
+  },
+  {
+    "id": 10,
+    "image": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Fitness_1X._SY304_CB639748186_.jpg8",
+    "title": "Aerial Adventure",
+    "price": "233$",
+    "description": "Fitted long Strappy Shoes"
+  }
+]
