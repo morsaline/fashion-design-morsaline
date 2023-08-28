@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Category from "../../Category/Category";
-import { getCategory } from "../../../Api/ApiService";
+import { useSelector } from "react-redux";
+// import { getCategory } from "../../../Api/ApiService";
 
 const WomenPageCategories = () => {
   // const [categories, setCategories] = useState([]);

@@ -6,7 +6,7 @@
 
 const getCategory = async () => {
   try {
-    const res = await fetch("file2.json");
+    const res = await fetch("../../public/file2.json");
 
     // console.log(FormData);
     return res.json();
@@ -16,7 +16,7 @@ const getCategory = async () => {
 };
 
 const getIems = () => {
-  const Items = fetch("file.json")
+  const Items = fetch("../../public/file.json")
     .then((res) => res.json())
     .then((data) => {
       return data;

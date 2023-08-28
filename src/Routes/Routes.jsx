@@ -1,61 +1,72 @@
+import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home";
 import Men from "../pages/Men/Men";
 import Women from "../pages/Women/Women";
-// import OrderDone from "../pages/OrderDone/OrderDone";
-import { createBrowserRouter } from "react-router-dom";
 import Kids from "../pages/Kids/Kids";
 import OrderDone from "../pages/OrderDone/OrderDone";
 import Login from "../pages/LoginPage/LoginPage";
 
-// import Error from "../pages/Error/Error";
 import Error from "../pages/Error/Error";
 import Cart from "../pages/Cart/Cart";
 import SingleProductDetails from "../components/SingleProductDetails/SingleProductDetails";
+import PaymentCancel from "../pages/payment/paymentCancel";
+import PaymentFail from "../pages/payment/paymentFail";
+import PaymentSuccess from "../pages/payment/paymentSucces";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
+    element: <Main />,
     children: [
       // home page/
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home />,
       },
       // pages
       {
         path: "men",
-        element: <Men></Men>,
+        element: <Men />,
       },
       {
         path: "women",
-        element: <Women></Women>,
+        element: <Women />,
       },
       {
         path: "kids",
-        element: <Kids></Kids>,
+        element: <Kids />,
       },
       // order pages
       {
         path: "orderDone",
-        element: <OrderDone></OrderDone>,
+        element: <OrderDone />,
       },
       {
         path: "login",
-        element: <Login></Login>,
+        element: <Login />,
       },
       {
         path: "*",
-        element: <Error></Error>,
+        element: <Error />,
       },
       {
         path: "/cart",
-        element: <Cart></Cart>,
+        element: <Cart />,
       },
       {
         path: "/product-details/:_id",
-        element: <SingleProductDetails></SingleProductDetails>,
+        element: <SingleProductDetails />,
+      },
+      {
+        path: "/payment/success/:transId",
+        element: <PaymentSuccess />,
+      },
+      { path: "/payment/fail", element: <PaymentFail /> },
+
+      {
+        path: "/payment/cancel",
+        element: <PaymentCancel />,
       },
     ],
   },

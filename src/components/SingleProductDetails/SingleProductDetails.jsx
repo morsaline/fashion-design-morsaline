@@ -15,6 +15,7 @@ import Discount50 from "../Discount50/Discount50";
 import { Link, useParams } from "react-router-dom";
 import { getIems, getSingleItem } from "../../Api/ApiService";
 import { addToDb, getStoredCart } from "../../utilities/fakedb";
+import { useSelector } from "react-redux";
 // import { getIems } from "../../Api/ApiService";
 
 const SingleProductDetails = () => {
@@ -24,22 +25,41 @@ const SingleProductDetails = () => {
   const { title, image, price, description } = singleItemDetails;
   const { _id } = useParams();
 
-  const handleAddToCart = (product) => {
-    const newCart = [...cart, product];
-    setCart(newCart);
-    addToDb(product.id);
-    console.log("cart");
-  };
+  // const handleAddToCart = (product) => {
+  //   const newCart = [...cart, product];
+  //   setCart(newCart);
+  //   addToDb(product.id);
+  //   console.log("cart");
+  // };
 
   useEffect(() => {
     getSingleItem(_id).then((singleData) => setSingleItemDetails(singleData));
   }, []);
 
-  useEffect(() => {
-    const storedCart = getStoredCart();
-    console.log(storedCart);
-    // console.log("jjj");
-  }, []);
+  // let itemsData = useSelector((state) => {
+  //   return state.items;
+  // });
+
+  // const itemsDatas = itemsData.data;
+  // // console.log(itemsDatas);
+  // useEffect(() => {
+  //   const storedCart = getStoredCart();
+  //   const savedCart = [];
+  //   console.log(storedCart);
+  //   for (const id in storedCart) {
+  //     const addedProduct = itemsDatas?.find((item) => item.id === id);
+  //     console.log(addedProduct);
+  //     if (addedProduct) {
+  //       let quantity = storedCart[id];
+  //       addedProduct.quantity = quantity;
+  //       savedCart.push(addedProduct);
+  //     }
+  //     // console.log(id);
+  //   }
+  //   setCart(savedCart);
+  //   // console.log(savedCart);
+  //   // console.log("jjj");
+  // }, []);
 
   const images = [
     {
